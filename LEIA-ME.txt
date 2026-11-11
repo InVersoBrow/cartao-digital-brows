@@ -1,0 +1,12 @@
+CARTÃO DIGITAL BRÖW'S — INSTRUÇÕES
+
+1. Abra index.html no navegador para pré-visualizar o cartão.
+2. Publique TODOS os arquivos, preservando a pasta assets, em uma hospedagem HTTPS (por exemplo GitHub Pages).
+3. Após publicar, abra o endereço HTTPS no celular e teste os botões, o QR Code e o download de contato.vcf.
+4. No NFC Tools: Escrever > Adicionar registro > URL/URI > cole o endereço HTTPS definitivo > Escrever > aproxime uma etiqueta NTAG213 virgem.
+5. Teste a etiqueta com outro celular e confirme que o cartão abre.
+6. Não bloqueie a etiqueta para escrita.
+
+IMPORTANTE: O QR Code é gerado pelo serviço público api.qrserver.com usando o endereço da página. Para uma versão sem dependência externa, substitua-o por um QR Code local após definir o URL definitivo.
+O número WhatsApp cadastrado é +55 15 3042-2508, conforme informado. Verifique se esse número está habilitado para WhatsApp antes de publicar.
+O endereço pode ser atualizado sem regravar o NFC desde que a URL gravada permaneça a mesma.
